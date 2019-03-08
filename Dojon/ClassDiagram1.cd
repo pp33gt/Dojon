@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dojon.Utils.StopWatch" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAMAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Utils\StopWatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Utils.Speech" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Utils\Speech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Utils.MessageHandler" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Utils\MessageHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Utils.KeyboardListenerEventArgs" Collapsed="true">
+    <Position X="7.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Utils\KeyboardListenerEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Utils.KeyboardListener" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACEAAAAAAABAAAAAAAAAAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Utils\KeyboardListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Utils.AsyncSpeech">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Dojon.Utils.AsyncSpeech.MethodDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\AsyncSpeech.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\AsyncSpeech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Utils.ConsoleInteraction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAIAAAAAAAAAAAAAACAAAAAAQFAAAA=</HashCode>
+      <FileName>Utils\ConsoleInteraction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dojon.Items.Item" Collapsed="true">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Items.Knife" Collapsed="true">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Knife.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameMap.Cell" Collapsed="true">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAAAgAAACAA=</HashCode>
+      <FileName>GameMap\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameMap.Entity" Collapsed="true">
+    <Position X="14.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAggAACAA=</HashCode>
+      <FileName>GameMap\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameMap.Map" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABABIEIAABgAIJAAEAAAQACAAAAADgGAAJAEAA=</HashCode>
+      <FileName>GameMap\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameMap.Position" Collapsed="true">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>GameMap\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionBase" Collapsed="true">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionDropItems" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionDropItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionHandler" Collapsed="true">
+    <Position X="6" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionMove" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionMoveEast" Collapsed="true">
+    <Position X="6.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionMoveEast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionMoveNorth" Collapsed="true">
+    <Position X="9" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionMoveNorth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionMoveSouth" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionMoveSouth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameActionMoveWest" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameActionMoveWest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameKeyboardHandler" Collapsed="true">
+    <Position X="6" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>EECAABAAACEAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameKeyboardHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameControl.GameKeyboardHandlerEventArgs" Collapsed="true">
+    <Position X="10" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameControl\GameKeyboardHandlerEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Creatures.Creature" Collapsed="true">
+    <Position X="16" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Creatures\Creature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Creatures.Dragon" Collapsed="true">
+    <Position X="19.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Dragon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Creatures.Hero" Collapsed="true">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Creatures.Ogre" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Ogre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Game" Collapsed="true">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAI=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.GameRepo" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBEAAAARAAAAEAAAAAACIAAAACAAABQAgDAQAYAAA=</HashCode>
+      <FileName>GameRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Panel" Collapsed="true">
+    <Position X="12.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Panel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dojon.Program" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Dojon.Utils.IConsoleInteraction" Collapsed="true">
+    <Position X="2.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAIAAAAAAAAAAAAAACAAAAAAQFAAAA=</HashCode>
+      <FileName>Utils\IConsoleInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Dojon.GameMap.Direction" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABACQ=</HashCode>
+      <FileName>GameMap\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
